@@ -1,0 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+.box { border-radius: 12px; border-style: solid; border-width: 1px; padding: 4px }
+
+
+*{font-family : 'Source Sans Pro', sans-serif;}
+.jumbotron{ background-color : #16a085; font-family : 'Source Sans Pro', sans-serif; font-size : 30px; padding : 20px 20px 20px 20px; text-align : center;  }
+.right_nav { background-color : #2c3e50 ; border-width: 1px; padding: 12px;}
+.content_panel {background-color : #7f8c8d; padding: 12px;}
+p { color: #fff;}

@@ -1,0 +1,65 @@
+<!DOCKTYPE html>
+<html>
+<head>
+  <title> html JS animation </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="bootstrap.min.css" rel="stylesheet" type="text/css" >
+  <link href="demo.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="jumbotron"><center> Javascript CSS Workflow | Simple effects!!! </center></div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="right_nav">
+          <div class="Effect"> Effects </div>
+          <p> <a onclick="a.addAnimation({effects: effects.ReplaceContent}); return true" href="#"> Replace The Content </a></p>
+          <p> <a onclick="a.addAnimation({effects: effects.AppendContent}); return true" href="#">  Append The Content </a></p>
+          <p> <a onclick="a.addAnimation({effects: effects.PrepandContent}); return true" href="#"> Prepand The Content </a></p>
+          <p> <a onclick="a.addAnimation({effects: effects['Emphasize-circle']}); return true" href="#Emphasize-circle">Emphasize circle</a><p>
+          <p> <a onclick="a.addAnimation({effects: effects['Emphasize-underline']}); return true" href="#Emphasize-underline">Emphasize underline</a><p>
+          <p> <a onclick="a.addAnimation({effects: effects['Emphasize-double-underline']}); return false" href="#Emphasize-double-underline">Emphasize double-underline</a><p>
+          <p> <a onclick="a.addAnimation({effects: effects.ProgressNumber}); return false" href="#ProgressNumber">Progress Number</a><p>
+          <p> <a onclick="a.addAnimation({effects: effects.FadeIn}); return true" href="#"> Fade In The Content </a></p>
+          <p> <a onclick="a.addAnimation({effects: effects.FadeOut}); return true" href="#"> Fade Out The Content </a></p>
+          <p> <a onclick="a.addAnimation({effects: effects.SlideIn}); return true" href="#"> Slide In The Content </a></p>
+          <p> <a onclick="a.addAnimation({effects: effects.SlideOut}); return true" href="#"> Slide Out The Content </a></p>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="content_panel">
+          <h3>Replace Content</h3>
+            <div class="box" id="ReplaceContent"><p>No content here</p></div>
+          <h3>Append Content</h3>
+            <div class="box" id="AppendContent"><p>No content here</p><br></div>
+          <h3>Prepend Content</h3>
+            <div class="box" id="PrependContent"><p>No content here</p></div>
+          <h3>Emphasize circle</h3>
+            <div class="box" id="Emphasize-circle"><p>Emphasize-circle</p></div>
+          <h3>Emphasize underline</h3>
+            <div class="box" id="Emphasize-underline"><p>Emphasize-underline</p></div>
+          <h3>Emphasize double-underline</h3>
+            <div class="box" id="Emphasize-double-underline"><p>Emphasize-double-underline</p></div>
+          <h3>Fade In</h3>
+            <div class="box" id="FadeIn"><p>FadeIn</p></div>
+          <h3>Fade Out</h3>
+            <div class="box" id="FadeOut"><p>FadeOut</p></div>
+          <h3>Progress Number</h3>
+            <div class="box" id="ProgressNumber"><p>Progress Number</p></div>
+          <h3>Slide In</h3>
+            <div class="box" id="SlideIn"><p>SlideIn</p></div>
+          <h3>Slide Out</h3>
+            <div class="box" id="SlideOut"><p>SlideOut</p></div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+  <script src="demo.js" rel="javascript" type="text/javascript"></script>
+  <script src="easyanimate.js" rel="javascript" type="text/javascript"></script>
+</body>
+</html>
